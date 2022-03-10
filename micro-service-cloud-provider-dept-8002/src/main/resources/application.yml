@@ -1,0 +1,10 @@
+server:
+  port: 8002  #端口号修改为 8002
+spring:
+  application:
+    name: microServiceCloudProviderDept  #微服务名称，不做修改，与 micro-service-cloud-provider-dept-8001 的配置保持一致
+  datasource:
+    username: root        #数据库登陆用户名
+    password: root1234        #数据库登陆密码
+    url: jdbc:mysql://127.0.0.1:3306/spring_cloud_db2       #数据库url
+    driver-class-name: com.mysql.jdbc.Driver                  #数据库驱动
